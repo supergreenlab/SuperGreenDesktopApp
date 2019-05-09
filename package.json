@@ -1,0 +1,20 @@
+{
+  "name": "supergreendesktopapp",
+  "version": "1.0.0",
+  "description": "SuperGreenLab's control app as a desktop executable",
+  "main": "main.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=DEV electron .",
+    "build": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "electron": "^5.0.1",
+    "electron-builder": "^20.39.0"
+  }
+}
